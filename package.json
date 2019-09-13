@@ -1,0 +1,15 @@
+{
+  "name": "slash-roll-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot for Rolling numbers",
+  "main": "bot.js",
+  "author": "Chris Kidney",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "request": "2.81.0",
+    "winston": "^3.2.1"
+  }
+}
