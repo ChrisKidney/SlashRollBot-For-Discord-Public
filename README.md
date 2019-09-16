@@ -1,5 +1,5 @@
 # SlashRollBot for Discord
-Discord bot that provides roll features similar to World of Warcraft's /roll command.
+Discord bot that provides roll features similar to World of Warcraft's /roll command, as well as standard dice rolling.
 
 # Commands
 WoW-Like:
