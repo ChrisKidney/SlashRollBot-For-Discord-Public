@@ -63,7 +63,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 }else if( x == 'help'){
                      bot.sendMessage({
                         to: channelID,
-                        message: '``` SlashRollBot Commands: \n \n Wow-like roll commands: \n \n !roll : rolls between 1 and 100 \n \n !roll # : rolls between 1 and # \n \n !roll # # : rolls between # and # \n \n !roll help : Displays this help text \n \n Dice Roll Commands: \n \n !roll d# : rolls # sided dice \n \n !roll #1 d#2 : rolls #1 amount of #2 sided dice \n \n !roll d#1 + #2 : rolls #1 sided dice and adds #2. "+" can be substituted for -, *, x or / for different operations. \n \n !roll #1 d#2 + #3 : rolls #1 amount of #2 sided dice and adds #3, "+" can be substituted, same as above```'
+                        message: '``` SlashRollBot Commands: \n \n Wow-like roll commands: \n \n !roll : rolls between 1 and 100 \n \n !roll # : rolls between 1 and # \n \n !roll # # : rolls between # and # \n \n !roll help : Displays this help text \n \n Dice Roll Commands: \n \n !roll d# : rolls # sided dice \n \n !roll # d# : rolls # amount of # sided dice```'
                     });
                      break;
                 // !roll # # : rolls between # and #     
@@ -195,18 +195,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     break;       
                 }else{
                     break;
-                }
-
-            case 'rawhide':
-                if (x == null){
-                    bot.sendMessage({
-                        to: channelID,
-                        message: '```Howdy, my name is Rawhide Kobayashi. Im a 27 year old Japanese Japamerican (western culture fan for you foreigners). I brand and wrangle cattle on my ranch, and spend my days perfecting the craft and enjoying superior American passtimes. (Barbeque, Rodeo, Fireworks) I train with my branding iron every day, this superior weapon can permanently leave my ranch embled on a cattles hide because it is white-hot, and is vastly superior to any other method of livestock marking. I earned my branding license two years ago, and I have been getting better every day. I speak English fluently, both Texas and Oklahoma dialect, and I write fluently as well. I know everything about American history and their cowboy code, which I follow 100% When I get my American visa, I am moving to Dallas to work in an oil field to learn more about their magnificent culture. I hope I can become a cattle wrangler for the Double Cross Ranch or an oil rig operator for Exxon-Mobil! I own several cowboy hats, which I wear around town. I want to get used to wearing them before I move to America, so I can fit in easier. I rebel against my elders and seniors and speak English as often as I can, but rarely does anyone manage to respond. Wish me luck in America!```'
-                    });
-                    break;
-                }else{
-                    break;
-                }    
+                }   
          }  
     }     
 });
