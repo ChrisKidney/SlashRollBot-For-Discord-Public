@@ -3,6 +3,7 @@ Discord bot that provides roll features similar to World of Warcraft's /roll com
 
 # Commands
 WoW-Like:
+
 !roll - rolls between 1 and 100
 
 !roll # - rolls between 1 and #
@@ -12,6 +13,7 @@ WoW-Like:
 !roll help - displays commands
 
 Dice Rolls:
+
 !roll d# - rolls a dice with # sides
 
 !roll #1 d#2 - rolls #1 amount of dice with #2 sides
