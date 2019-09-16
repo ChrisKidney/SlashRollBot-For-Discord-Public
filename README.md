@@ -20,7 +20,7 @@ Dice Rolls:
 
 !roll d#1 + #2 - rolls a dice with #1 sides and adds #2, '+' can be substituted for other operators to change operation
 
-!roll #1 d#2 + #3 - rolls #1 amount of dice with #2 sides and adds #4, '+' can be substituted for other operations to change operation
+!roll #1 d#2 + #3 - rolls #1 amount of dice with #2 sides and adds #3, '+' can be substituted for other operations to change operation
 
 # Notes
 Add discord bot auth token to 'auth.js' file in order to attach code to bot and bring bot online.
